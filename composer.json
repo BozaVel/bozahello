@@ -12,14 +12,14 @@
         "php": ">=5.6.0"
     },
     "autoload": {
-        "psr-0": {
-            "HelloWorld": "src/"
+        "psr-4": {
+            "boziola\\bozahello\\HelloWorld": "src/"
         }
     },
     "extra": {
 		"component": "package",
 		"branch-alias": {
-			"dev-master": "master-dev"
+			"dev-master": "1.0-dev"
 		}
     }
 }
