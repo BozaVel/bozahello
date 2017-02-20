@@ -15,5 +15,10 @@
         "psr-0": {
             "HelloWorld": "src/"
         }
-    }
+    },
+    "extra": {
+		"component": "package",
+		"branch-alias": {
+			"dev-master": "master-dev"
+		}
 }
