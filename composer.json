@@ -21,4 +21,5 @@
 		"branch-alias": {
 			"dev-master": "master-dev"
 		}
+    }
 }
