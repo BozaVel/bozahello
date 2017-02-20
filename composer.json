@@ -1,5 +1,5 @@
 {
-    "name": "boziola/bozahello",
+    "name": "BozaVel/bozahello",
     "description": "My first Composer project",
     "authors": [
         {
@@ -7,19 +7,15 @@
             "email": "ivan.boza.bozovic@gmail.com"
         }
     ],
+    "type": "library",
+    "license": "MIT",
     "minimum-stability": "master",
     "require": {
-        "php": ">=5.6.4"
+        "php": ">=5.3"
     },
     "autoload": {
         "psr-4": {
-            "HelloWorld\\": "src/"
+            "BozaVel\\bozahello\\HelloWorld\\": "src/"
         }
-    },
-    "extra": {
-		"component": "package",
-		"branch-alias": {
-			"master": "1.0-dev"
-		}
     }
 }
