@@ -1,5 +1,5 @@
 {
-    "name": "BozaVel/bozahello",
+    "name": "boza-vel/bozahello",
     "description": "My first Composer project",
     "authors": [
         {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BozaVel\\bozahello\\HelloWorld\\": "src/"
+            "HelloWorld\\": "src/"
         }
     }
 }
