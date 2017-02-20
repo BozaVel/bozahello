@@ -7,7 +7,7 @@
             "email": "ivan.boza.bozovic@gmail.com"
         }
     ],
-    "minimum-stability": "master",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.6.0"
     },
